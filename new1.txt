@@ -1,0 +1,28 @@
+﻿https://rubygems.org
+
+$ gem update --system    更新到最新版本3
+
+rails
+仍然有sqlite3的错误
+
+rails db
+
+C:\Sites\app>rails db
+SQLite version 3.8.7.2 2014-11-18 20:57:56
+Enter ".help" for usage hints.
+sqlite> .quit
+
+再一次
+bundle install
+成功
+Using sqlite3 1.3.13 (x86-mingw32)
+Bundle complete! 13 Gemfile dependencies, 67 gems now installed.
+Use `bundle info [gemname]` to see where a bundled gem is installed.
+
+
+localhost:3000
+
+http://localhost:3000/welcome/index  索引页面
+localhost:3000/articles/new    创建新的bolg
+localhost:3000/articles        查看所有的bolg
+localhost:3000/articles/1      查看某一条bolg
