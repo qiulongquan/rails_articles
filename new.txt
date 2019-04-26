@@ -1,4 +1,4 @@
-﻿https://rubygems.org
+https://rubygems.org
 
 $ gem update --system    更新到最新版本3
 
@@ -20,8 +20,11 @@ Bundle complete! 13 Gemfile dependencies, 67 gems now installed.
 Use `bundle info [gemname]` to see where a bundled gem is installed.
 
 
-localhost:3000
+如何快速正确的安装 Ruby, Rails 运行环境
+https://ruby-china.org/wiki/install_ruby_guide
+------------------------------------------------------------------
 
+localhost:3000
 http://localhost:3000/welcome/index  索引页面
 localhost:3000/articles/new    创建新的bolg
 localhost:3000/articles        查看所有的bolg

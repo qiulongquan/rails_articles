@@ -1,0 +1,14 @@
+---
+applications:
+  - name: Ruby-qiu20190426
+    # buildpack: python_buildpack
+    # command: gunicorn yj_alation_tools.wsgi --pythonpath ./yj_alation_tools --access-logfile=- --error-logfile=-
+    env:
+      TZ: Asia/Tokyo
+    memory: 2GB
+    disk_quota: 2G
+    stack: cflinuxfs3
+    timeout: 80
+    env:
+      # LD_LIBRARY_PATH: /home/vcap/app/instantclient
+
